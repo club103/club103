@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Club 103</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="arrow.css">
@@ -12,11 +12,16 @@
 
 <body>
     <div class="container bg">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://bulma.io">
                     <img src="img/logo.png" width="96" height="96">
                     <!-- <img src="img/logo.gif" width="64" height="64"> -->
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
                 </a>
             </div>
             <div class="navbar-menu">
@@ -100,7 +105,7 @@
                 <div class="columns">
                     <div class="column">
                         <h2 id="contact-us" class="title is-3">Contact Us</h2>
-                        <div class="container" style="display:grid; float: left;padding-left: 30px;">
+                        <div class="container socials">
                             <span style="margin: 15px 0;">
                                 <span class="icon" style="vertical-align: middle;">
                                     <i class="fas fa-2x	fa-at"></i>
@@ -138,7 +143,7 @@
                         <div style="    display: grid;
                         text-align: left;
                         margin: 0 auto;">
-                            <ul>
+                            <ul class="informations">
                                 <li><a href="">Mentions légales</a></li>
                                 <li><a href="">CGV</a></li>
                             </ul>
@@ -168,6 +173,19 @@
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            // Check for click events on the navbar burger icon
+            $(".navbar-burger").click(function() {
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+
+            });
+        });
+    </script>
 </body>
 
 </html>

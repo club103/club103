@@ -34,6 +34,14 @@ html {
     text-decoration: underline;
 }
 
+.navbar-burger {
+    color: white;
+}
+
+.navbar-menu.is-active {
+    background-color: rgba(0, 0, 0, .05);
+}
+
 .navbar-item {
     color: white;
 }
@@ -73,19 +81,37 @@ html {
     color: black;
 }
 
+.socials {
+    display: grid;
+    padding-left: 30px;
+}
+
 .footer {
     background-color: #363636;
     padding: 35px 30px;
     color: white;
 }
 
-a:not(.navbar-item) {
+a:not(.navbar-item,
+.navbar-burger) {
     color: #4a4a4a;
     text-decoration: underline;
 }
 
 .footer a {
     color: white;
+}
+
+@media screen and (max-width: 769px) {
+    .informations {
+        text-align: center;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .socials {
+        padding-left: 15px;
+    }
 }
 
 .navbar-brand {

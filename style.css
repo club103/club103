@@ -31,7 +31,7 @@ html {
     width: 100%;
     padding: 0 65px;
     height: 77px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .navbar-burger {
@@ -74,7 +74,7 @@ html {
 
 .column {
     /* border: 0.5px solid #0e0e0E; */
-    margin: auto;
+    /* margin: auto; */
 }
 
 .icon {

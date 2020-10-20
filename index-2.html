@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Club 103</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style-2.css">
+    <link rel="stylesheet" href="arrow.css">
+</head>
+
+<body>
+    <div class="container header-bg" style="text-align: center;">
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <img src="img/logo-2.png" width="96" height="96">
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="#projects" class="navbar-item">Projects</a>
+                    <a href="#about-us" class="navbar-item">Agency</a>
+                    <a href="#contact-us" class="navbar-item">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <h1 class="title has-text-centered has-text-white" style="padding-top: 30vh;">Develop your idea</h1>
+    </div>
+    <div class="container">
+        <section>
+            <div class="columns">
+                <div class="column is-3">
+                    <h1 class="title is-7">about us</h1>
+                </div>
+                <div class="column is-6">
+                    <p style="text-align: justify;">
+                        <b>club103</b> -
+                        <span>vestibulum ante ipsum primis in faucibus orci luctus.</span>
+                        <br>
+                        <span>
+                            Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula
+                            donec rutrum congue leo eget malesuada.
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-3">
+                    <h1 class="title is-7">services</h1>
+                </div>
+                <div class="column is-9 services">
+                    <div class="columns">
+                        <div class="column is-3">
+                            <h3 class="title is-6">
+                                <span>01</span> Kraft
+                            </h3>
+                            <p>
+                                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula donec rutrum congue leo eget malesuada.
+                            </p>
+                        </div>
+                        <div class="column is-3">
+                            <h3 class="title is-6">
+                                <span>02</span> Webmaking
+                            </h3>
+                            <p>
+                                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula donec rutrum congue leo eget malesuada.
+                            </p>
+                        </div>
+                        <div class="column is-3">
+                            <h3 class="title is-6">
+                                <span>03</span> Makerting Digital
+                            </h3>
+                            <p>
+                                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula donec rutrum congue leo eget malesuada.
+                            </p>
+                        </div>
+                        <div class="column is-3" style="width: 250px;">
+                            <h3 class="title is-6">
+                                <span>04</span> Plateforme de marque
+                            </h3>
+                            <p>
+                                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula donec rutrum congue leo eget malesuada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-3">
+                    <h1 class="title is-7">projects</h1>
+                </div>
+                <div class="column is-9 projects">
+                    <div class="columns">
+                        <div class="column">
+                            <a href="">
+                                <h3 class="title is-3">
+                                    <span>01</span> SHIFT
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="">
+                                <h3 class="title is-3">
+                                    <span>02</span> KRAFT
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="">
+                                <h3 class="title is-4">
+                                    <span>03</span> MHDRONE
+                                </h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </div>
+        <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <script>
+            $(document).ready(function() {
+
+                // Check for click events on the navbar burger icon
+                $(".navbar-burger").click(function() {
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    $(".navbar-burger").toggleClass("is-active");
+                    $(".navbar-menu").toggleClass("is-active");
+
+                });
+            });
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Druk Text Wide Web Medium";
+    src: url("@font-face/3724259186746d86859fbb0fde0fa44a.eot");
+    src: url("@font-face/3724259186746d86859fbb0fde0fa44a.eot?#iefix") format("embedded-opentype"), url("@font-face/3724259186746d86859fbb0fde0fa44a.woff2") format("woff2"), url("@font-face/3724259186746d86859fbb0fde0fa44a.woff") format("woff"), url("@font-face/3724259186746d86859fbb0fde0fa44a.ttf") format("truetype"), url("@font-face/3724259186746d86859fbb0fde0fa44a.svg#Druk Text Wide Web Medium") format("svg");
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+p,
+a {
+    color: white !important;
+}
+
+.title {
+    font-family: "Druk Text Wide Web Medium";
+}
+
+.container.header-bg {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.navbar {
+    background-color: transparent;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 65px;
+    height: 77px;
+}
+
+.navbar-item img {
+    max-height: 96px;
+}
+
+.column.is-3 .title.is-7 {
+    text-transform: uppercase;
+}
+
+section>.columns {
+    margin-bottom: 140px !important;
+}
+
+.services .column {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.column.is-6 .title,
+.services .title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+h3>span {
+    font-weight: normal;
+    font-size: 10px;
+    position: relative;
+    bottom: 6px;
+    margin-right: 12px;
+}
+
+.services p {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    width: 140px;
+    text-align: left;
+}
+
+.projects h3 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    line-height: 135px;
+    padding-left: 25px;
+}
+
+.projects span {
+    bottom: 20px;
+    -webkit-text-fill-color: black;
+    font-family: Roboto;
+    color: black;
+}
+
+.projects .column {
+    max-width: 300px;
+    height: 160px;
+    background: transparent !important;
+    margin-right: .75rem;
+}
+
+.projects .column:first-child {
+    background-color: #eb5054;
+}
+
+.projects .column:nth-child(2) {
+    background-color: #219ca4 !important;
+}
+
+.projects .column:last-child {
+    background-color: #2a2a2a;
+}
